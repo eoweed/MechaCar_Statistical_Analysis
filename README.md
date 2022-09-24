@@ -27,12 +27,9 @@
 ### T-Tests on Suspension Coils
 ###### The purpose of performing the t-tests on the suspension coil data is to determine if a sample mean is statistically different from the population mean of 1500 PSI. One t-test analyzes the difference in mean PSI for all 150 sampled suspension coils. Three other t-tests analyze the difference in mean PSI for each of the three manufacturing lots. The p-value used to determine statistical difference between sample mean and population mean is 0.05.
 
-<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_all.png" width=40% height=40%>
-
-<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot1.png" width=40% height=40%>
-
-<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot2.png" width=40% height=40%>
-
-<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot3.png" width=40% height=40%>
+<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_all.png" style="border: 1px solid black" width=50% height=50%>
+<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot1.png" width=50% height=50%>
+<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot2.png" width=50% height=50%>
+<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot3.png" width=50% height=50%>
 
 ###### According to the results, there is no statistical difference between the mean of all 150 samples and the population mean. When grouped by manufacturing lot, Lot 1 and Lot 2 have no statistical difference from the population, however, Lot 3 is statistically different. The p-value from the t-test on Lot 3 is less than 0.05, so we must conclude that the sample and population means are different.
