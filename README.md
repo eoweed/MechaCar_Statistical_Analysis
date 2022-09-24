@@ -18,6 +18,7 @@
 ###### The summary statistics tables below show the mean, median, variance and standard deviation of PSI capacities for 150 suspension coils. There is a summary of all suspension coils, and a summary of suspension coils grouped by the lot where it was manufactured.  
 
 !["total_summary"](https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
+#
 !["lot_summary"](https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
 
 ###### According to MechaCar's design specifications, the variance in manufacturing data must not be greater than 100 PSI. Overall, the manufactured suspension coils have a variance of 62.29356 which meets the design specifications. However, the summary by lot shows that Lot 3 has a variance of 170.2861224, which does not meet design specifications. 
