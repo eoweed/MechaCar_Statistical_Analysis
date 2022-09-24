@@ -1,9 +1,9 @@
 # MechaCar_Statistical_Analysis
 
-## Linear Regression to Predict MPG
+#### Linear Regression to Predict MPG
 ###### A linear analysis was performed on the test results from 50 prototype MechaCars in order to determine if any variables predict mpg. The null hypothesis is that the slope of our linear model is zero, and mpg can be explained by random chance. The alternative hypothesis is that the slope of our model is not zero, and mpg is influenced by non-random events. The significance level used is a p-value of 0.05.
 
-!["Linear_Model"]()
+!["Linear_Model"](https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/Deliverable1.png)
 
 ###### Variables "vehicle_length" and "ground_clearance" are not random predictors of variance. There is extremely low probability that each variable contributes to random variance in mpg.
 - vehicle_length: Pr(>|t|) = 5.08e-08
