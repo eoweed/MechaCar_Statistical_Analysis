@@ -16,3 +16,9 @@ suspension_data <- read.csv("Suspension_Coil.csv")
 total_summary <- suspension_data %>% summarize(Mean=mean(PSI),Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups='keep')
 lot_summary <- suspension_data %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups='keep')
 
+
+# t-tests for Suspension Coils
+t.test(suspension_data$PSI, mu=1500)
+t.test(subset(suspension_data, Manufacturing_Lot == "Lot1", select = PSI), mu=1500)
+t.test(subset(suspension_data, Manufacturing_Lot == "Lot2", select = PSI), mu=1500)
+t.test(subset(suspension_data, Manufacturing_Lot == "Lot3", select = PSI), mu=1500)
