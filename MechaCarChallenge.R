@@ -9,3 +9,10 @@ lm(mpg ~ vehicle_length + vehicle_weight +
 summary(lm(mpg ~ vehicle_length + vehicle_weight + 
              spoiler_angle + ground_clearance +
              AWD, MechaCar_data))
+
+
+# Summary Stats on Suspension Coils
+suspension_data <- read.csv("Suspension_Coil.csv")
+total_summary <- suspension_data %>% summarize(Mean=mean(PSI),Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups='keep')
+lot_summary <- suspension_data %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups='keep')
+
