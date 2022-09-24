@@ -3,7 +3,7 @@
 ### Linear Regression to Predict MPG
 ###### A linear analysis was performed on the test results from 50 prototype MechaCars in order to determine if any variables predict mpg. The null hypothesis is that the slope of our linear model is zero, and mpg can be explained by random chance. The alternative hypothesis is that the slope of our model is not zero, and mpg is influenced by non-random events. The significance level used is a p-value of 0.05.
 
-<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/Deliverable1.png" width=50% height=50%>
+<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/Deliverable1.png">
 
 ###### Variables "vehicle_length" and "ground_clearance" are not random predictors of variance. There is extremely low probability that each variable contributes to random variance in mpg.
 - vehicle_length: Pr(>|t|) = 2.60e-12
@@ -27,7 +27,7 @@
 ### T-Tests on Suspension Coils
 ###### The purpose of performing the t-tests on the suspension coil data is to determine if a sample mean is statistically different from the population mean of 1500 PSI. One t-test analyzes the difference in mean PSI for all 150 sampled suspension coils. Three other t-tests analyze the difference in mean PSI for each of the three manufacturing lots. The p-value used to determine statistical difference between sample mean and population mean is 0.05.
 
-<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_all.png" style="border: 1px solid black" width=50% height=50%>
+<img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_all.png" width=50% height=50%>
 <img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot1.png" width=50% height=50%>
 <img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot2.png" width=50% height=50%>
 <img src="https://github.com/eoweed/MechaCar_Statistical_Analysis/blob/main/images/t-test_lot3.png" width=50% height=50%>
