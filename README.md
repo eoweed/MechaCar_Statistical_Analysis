@@ -48,23 +48,23 @@
 ###### Alternative Hypothesis: The MechaCar prototype MPGe is statistically different from the MPGe of the competition.
 
 ##### Methods:
-###### Step 1) Determine fuel requirements for each vehicle type: 
+###### Step 1) Determine fuel requirements for three vehicle types: 
 -	Vehicle1: MechaCar prototype (gas vehicle)
 -	Vehicle2: Competitor (gas vehicle)
 -	Vehicle3: Competitor (electric vehicle)
-###### Step 2) Provide 1 gallon of gas, or 1 gallon of gas equivalent to each vehicle:
+###### Step 2) Provide 1 gallon of gas, or 1 gallon of gas equivalent for each vehicle type:
 -	Vehicle1: 1 gallon of gas
 -	Vehicle2: 1 gallon of gas
 -	Vehicle3: 33.7kWh of electricity
 ###### Step 3) Drive each vehicle on the same route to determine how far it can travel before running out of fuel. Calculate the distance in miles.
-###### Step 4) Calculate MPGe for each test run.
+###### Step 4) Calculate MPGe for each test run and categorize by vehicle type.
 ###### Step 5) Perform Statistical tests:
 -	Summary Statistics will show the mean, median, variance, and standard deviation of MPGe for each vehicle type.
 -	 Analysis of Variance (ANOVA) test will compare the mean MPGe across Vehicle1, Vehicle2 and Vehicle3. 
 
 
 ### References:
-###### 1. Zimbrick. (2022). *What is MPGe*. https://zimbrick.com/blogs/2460/helpful-tips/what-is-mpge
+###### 1. Zimbrick. (2022). *What is MPGe*. https://www.zimbrick.com/blogs/2460/helpful-tips/what-is-mpge/
 
 
 
