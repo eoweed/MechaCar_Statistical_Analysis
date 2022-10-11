@@ -1,5 +1,7 @@
 # my files to ignore
 Module15-R/
+.RData
+.Rhistory
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
